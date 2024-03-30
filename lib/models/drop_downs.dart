@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 Aqui é um widget que criei para encapsular todo componente e montá-lo conforme a estrutura que eu queria.
  */
 
-class dropDownsComponent extends StatelessWidget {
+class DropDowns extends StatelessWidget {
   final String pais;
   final List<String> moedas;
   final Function(String valor) functionDrodpwons;
   //Construtor do widget
-  const dropDownsComponent(this.pais, this.moedas, this.functionDrodpwons);
+  const DropDowns(this.pais, this.moedas, this.functionDrodpwons);
 
   @override
   Widget build(BuildContext context) {

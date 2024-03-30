@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
@@ -20,7 +18,7 @@ getAllPaises - Os Dropdowns foram criados para receber uma lista de países, par
 forma que na função anterior e então puxei todas as informações sobre o nome das moedas e os respectivos países
 que as usam.
 
-Eu utilizei nessas requisições tipagem direta sem criar modelos, mesmo sabendo que deveria criar,  no entanto,
+Eu utilizei nessas requisições tipagem direta sem criar classes, mesmo sabendo que deveria criar,  no entanto,
 como os objetos em que trabalhamos não são tão complexos (digo, as informações que iriamos utilizar), eram tipos
 simples, então acabei optando por fazer-os diretamente.
 
@@ -42,7 +40,7 @@ Future<num> getConverter(String pais, String pais2, num valor) async {
     //Achei mais fácil assim do que ter que lidar com estilo json Map;
     return data["rates"][pais2];
   } else {
-    return 0 as num;
+    return 0;
   }
 }
 

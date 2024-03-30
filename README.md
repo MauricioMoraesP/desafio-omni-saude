@@ -4,9 +4,7 @@ OBS: Eu tive a ideia de que qualquer um dos inputs que escolher para preencher o
 
 2-Um segundo desafio foi entender como entregar uma aplicação de conversão, o que ela deveria ter e o que deveria fornecer visualmente. Para isso, examinei alguns sites exemplos para entender melhor como eles lidavam com esse tipo de recurso e funcionalidades.
 
-3-Tive que procurar na internet para entender que existia um tipo específico de controlador para TextField (observação: a parte em que estou do curso não abordou sobre isso). Então, pesquisei na documentação e assisti a vídeos sobre como montar do jeito que estava imaginando. Levou um pouco de trabalho, mas no final consegui.
-
-4-Outro desafio que encontrei foi garantir que os parâmetros não fossem nulos. Como venho do TypeScript e ele utiliza alguns sinais diferentes para isso, às vezes tive que parar e gastar um pouco de tempo para entender o que estava acontecendo com meu código.
+3-Outro desafio que encontrei foi garantir que os parâmetros não fossem nulos. Como venho do TypeScript e ele utiliza alguns sinais diferentes para isso, às vezes tive que parar e gastar um pouco de tempo para entender o que estava acontecendo com meu código.
 
 
 
